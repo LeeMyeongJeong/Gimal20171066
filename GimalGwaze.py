@@ -30,5 +30,5 @@ for x in range(1, num+1):
     lotto.sort() 
     print(lotto)
 dic = {"조상님":"저에게 힘을주세요!"}
-print("-----------절취선-----------")
+print("----------절취선----------")
 print(dic)
