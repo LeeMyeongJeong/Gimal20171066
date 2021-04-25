@@ -29,6 +29,23 @@ for x in range(1, num+1):
 
     lotto.sort() 
     print(lotto)
-dic = {"조상님":"저에게 힘을주세요!"}
 print("----------절취선----------")
-print(dic)
+print('조상님 저에게 힘을주세요!')
+
+print("딕쇼나리")
+dic = {'test1':'사과',
+       'test2':'배',
+       'test3':'사자'}
+keys = list(dic.keys())
+random.shuffle(keys)
+
+count = 0
+for test in keys:
+    keword = dic[test]
+    g = input('{} 몇번을 테스트할건치 치세요:')
+    if g == keword:
+        print('입니다')
+    else:
+        print('이상한거 하지마세요')
+print("끝났습니다.")        
+#딕쇼나리 어렵덩...
